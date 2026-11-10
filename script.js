@@ -5,7 +5,7 @@
    Formato: código do país + DDD + número, somente dígitos.
    Exemplo: 5511999999999
    ============================================================ */
-const WHATSAPP_NUMBER = "5500000000000"; // <-- SUBSTITUIR PELO NÚMERO REAL
+const WHATSAPP_NUMBER = "5511955906678";
 
 const WHATSAPP_GREETING = "Olá, NexDev! Quero conversar sobre um projeto.";
 

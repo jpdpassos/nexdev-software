@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" role="img" aria-labelledby="title desc">
+  <title id="title">Prévia de uma loja virtual</title>
+  <desc id="desc">Interface conceitual de uma loja virtual com produtos em destaque.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#101b42"/><stop offset="1" stop-color="#080b20"/></linearGradient>
+    <linearGradient id="accent" x1="0" x2="1"><stop stop-color="#27d8ff"/><stop offset="1" stop-color="#9b6cff"/></linearGradient>
+  </defs>
+  <rect width="960" height="540" rx="28" fill="url(#bg)"/>
+  <rect x="38" y="34" width="884" height="54" rx="15" fill="#0b1230" stroke="#536fae" stroke-opacity=".45"/>
+  <circle cx="70" cy="61" r="8" fill="#27d8ff"/><text x="94" y="68" fill="#f4f6ff" font-family="Arial,sans-serif" font-size="22" font-weight="700">NOVA STORE</text>
+  <text x="730" y="68" fill="#9ba7c7" font-family="Arial,sans-serif" font-size="16">Produtos</text><text x="820" y="68" fill="#9ba7c7" font-family="Arial,sans-serif" font-size="16">Carrinho</text>
+  <rect x="70" y="126" width="820" height="125" rx="22" fill="#15285a"/><rect x="70" y="126" width="820" height="125" rx="22" fill="url(#accent)" opacity=".13"/>
+  <text x="108" y="177" fill="#f4f6ff" font-family="Arial,sans-serif" font-size="30" font-weight="700">Sua próxima descoberta</text><text x="108" y="211" fill="#aebce0" font-family="Arial,sans-serif" font-size="17">Uma experiência de compra simples e bonita.</text>
+  <rect x="108" y="226" width="132" height="5" rx="3" fill="url(#accent)"/>
+  <g transform="translate(70 290)"><rect width="250" height="185" rx="18" fill="#101a3b" stroke="#30457f"/><rect x="18" y="18" width="214" height="98" rx="12" fill="#172b59"/><circle cx="125" cy="67" r="30" fill="#27d8ff" opacity=".3"/><rect x="18" y="135" width="110" height="10" rx="5" fill="#f4f6ff" opacity=".9"/><rect x="18" y="156" width="75" height="8" rx="4" fill="#9ba7c7" opacity=".65"/><rect x="175" y="146" width="57" height="24" rx="12" fill="url(#accent)"/></g>
+  <g transform="translate(355 290)"><rect width="250" height="185" rx="18" fill="#101a3b" stroke="#30457f"/><rect x="18" y="18" width="214" height="98" rx="12" fill="#242055"/><circle cx="125" cy="67" r="30" fill="#9b6cff" opacity=".35"/><rect x="18" y="135" width="110" height="10" rx="5" fill="#f4f6ff" opacity=".9"/><rect x="18" y="156" width="75" height="8" rx="4" fill="#9ba7c7" opacity=".65"/><rect x="175" y="146" width="57" height="24" rx="12" fill="url(#accent)"/></g>
+  <g transform="translate(640 290)"><rect width="250" height="185" rx="18" fill="#101a3b" stroke="#30457f"/><rect x="18" y="18" width="214" height="98" rx="12" fill="#123c58"/><circle cx="125" cy="67" r="30" fill="#48e0a8" opacity=".3"/><rect x="18" y="135" width="110" height="10" rx="5" fill="#f4f6ff" opacity=".9"/><rect x="18" y="156" width="75" height="8" rx="4" fill="#9ba7c7" opacity=".65"/><rect x="175" y="146" width="57" height="24" rx="12" fill="url(#accent)"/></g>
+</svg>

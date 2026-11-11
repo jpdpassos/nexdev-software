@@ -14,7 +14,8 @@
   <meta property="og:image" content="assets/nexdev-logo.png">
   <meta name="twitter:card" content="summary">
   <link rel="icon" type="image/png" href="assets/nexdev-logo.png">
-    <link rel="stylesheet" href="styles.css?v=20261110c">
+    <link rel="preload" href="assets/software-logo-3d-model.glb" as="fetch" type="model/gltf-binary" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css?v=20261110d">
   <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/4.0.0/model-viewer.min.js"></script>
 </head>
 <body>
@@ -87,7 +88,10 @@
               exposure="1.05"
               loading="eager"
               reveal="auto">
-              <div class="model-loading" slot="poster"><span>Carregando modelo 3D…</span></div>
+              <div class="model-loading" slot="poster">
+                <img src="assets/nexdev-logo.png" alt="" width="88" height="88" decoding="async">
+                <span>Carregando interação 3D…</span>
+              </div>
             </model-viewer>
           </div>
           <p class="model-hint"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12a8 8 0 0 1 14-5.300M20 12a8 8 0 0 1-14 5.300M18 3v4h-4M6 21v-4h4"/></svg>Arraste para girar</p>

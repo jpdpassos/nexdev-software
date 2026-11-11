@@ -116,7 +116,8 @@ h3 { margin-bottom: 12px; font-size: 1.18rem; }
 .model-stage { position: relative; min-height: 420px; display: grid; place-items: center; }
 .model-glow { position: absolute; width: 80%; aspect-ratio: 1; border-radius: 50%; background: radial-gradient(circle, rgba(64, 188, 255, .3), rgba(121, 86, 255, .15) 40%, transparent 70%); filter: blur(25px); }
 .model-viewer { position: relative; width: 100%; height: 420px; --poster-color: transparent; --progress-bar-color: var(--cyan); }
-.model-loading { display: grid; place-items: center; height: 100%; color: var(--muted); font-size: .9rem; }
+.model-loading { display: grid; place-items: center; align-content: center; gap: 12px; height: 100%; color: var(--muted); font-size: .9rem; }
+.model-loading img { width: 88px; height: 88px; border-radius: 22px; opacity: .88; box-shadow: 0 0 34px rgba(39, 216, 255, .18); }
 .model-hint { display: flex; justify-content: center; align-items: center; gap: 8px; margin: -4px 0 0; color: var(--muted); font-size: .8rem; }
 .model-hint svg { width: 17px; height: 17px; fill: none; stroke: currentColor; stroke-width: 1.7; }
 .trust { border-block: 1px solid rgba(130, 160, 255, .12); background: rgba(12, 18, 42, .55); }

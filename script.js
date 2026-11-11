@@ -98,4 +98,21 @@ const WHATSAPP_GREETING = "Olá, NexDev! Quero conversar sobre um projeto.";
     });
   }
 
+  // Cards com demonstrações: clique no card ou use Enter/Espaço para abrir o exemplo.
+  document.querySelectorAll("[data-demo-link]").forEach((card) => {
+    const demoLink = card.dataset.demoLink;
+    if (!demoLink) return;
+
+    const openDemo = () => window.open(demoLink, "_blank", "noopener,noreferrer");
+    card.addEventListener("click", (event) => {
+      if (event.target.closest("a, button")) return;
+      openDemo();
+    });
+    card.addEventListener("keydown", (event) => {
+      if (event.key !== "Enter" && event.key !== " ") return;
+      event.preventDefault();
+      openDemo();
+    });
+  });
+
 })();
